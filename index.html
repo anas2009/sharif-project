@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Page</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/model.js"></script>
+
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+
+		.bg-color{
+			background-color: #e0e0e0;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.text-color{
+			color: #000;
+			font-size: 25px;
+			font-weight: bold;
+			text-align: center;
+			padding: 15px;
+		}
+
+		.contaciner{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.model-popup{
+			width: 350px;
+			height: 350px;
+			background-color: #CDDC39;
+			margin: 0 auto;
+			display: none;
+		}
+
+		.close-btn{
+			padding: 5px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body style="background-color: #607D8B;">
+	<div class="contaciner">
+	<button id="pop-btn" class="text-color">Click to Open Popup</button>
+
+		<div class="model-popup">
+			<button id="close-btn" class="close-btn">Close</button>
+			<p title="Popup Details">Demo Content</p>
+		</div>
+	</div>
+</body>
+</html>
